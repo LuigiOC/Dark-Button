@@ -1,0 +1,44 @@
+:root {
+    --primary-color: black;
+    --second-color: white;
+    --text-color: black;
+    --second-text-color: white;
+}
+
+body {
+    background-color: var(--second-color);
+    color: var(--text-color);
+}
+
+.body_dark {
+    background-color: var(--primary-color);
+    color: var(--second-text-color);
+}
+
+.container_button {
+    margin-top: 20%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_light {
+    width: 300px;
+    height: 100px;
+    border-radius: 30px;
+    background-color: var(--second-color);
+    color: var(--text-color);
+}
+
+.btn_dark {
+    width: 300px;
+    height: 100px;
+    background-color: var(--primary-color);
+    color: var(--second-text-color);
+    border: solid white;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
